@@ -1,0 +1,10 @@
+reverse the string
+
+public class Main {
+    public static void main(String[] args) {
+        String str = "Programiz";
+        String result = new StringBuilder(str).reverse().toString();
+        
+        System.out.println(result);
+    }
+}
